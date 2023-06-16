@@ -1,20 +1,15 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  padding: 10px;
   display: flex;
-  flex: 1 1 auto;
-  justify-content:space-evenly;
-  align-items: flex-start;
-}
-
-.header > ul {
-  display: flex;
-  flex-direction: row;
-  gap: 2px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 li {
   flex: auto;
+  margin: 10px;
 }
 
 .logo {
@@ -28,6 +23,10 @@ li {
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 8px;
 }
 
 a {
@@ -36,17 +35,4 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
-}
-
-.left-links {
-  border: 1px solid green;
-}
-
-.logo {
-  border: 1px solid lightblue;
-  flex-basis: auto;
-}
-
-.right-links {
-  border: 1px solid greenyellow;
 }
