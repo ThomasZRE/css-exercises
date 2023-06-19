@@ -4,23 +4,24 @@ body {
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 52px;
 }
 
 .elm {
-  display: block;
-  text-align: center;
+  display: flex;
+  flex-basis: 200px;
+  flex-direction: column;
+  align-items: center;
 }
 
-.elm.container .text {
-  margin-left: auto;
-  flex-wrap: wrap;
+.text {
+  text-align: center;
 }
 
 img {
   width: 100px;
   height: 100px;
-  text-align: center;
 }
 
 .title {
