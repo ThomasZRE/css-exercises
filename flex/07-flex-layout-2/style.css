@@ -58,7 +58,5 @@ li a {
 
 .cards {
   display: flex;
-  justify-content: end;
-  max-width: 50%;
   flex-wrap: wrap;
 }
